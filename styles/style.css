@@ -7,11 +7,18 @@ body {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	align-items: flex-start;
+}
+h2 {
+	margin: 0;
+}
+h3 {
+	margin: 0;
 }
 
 .link-box ul{
 	background-color: #29F508;
-	width: 250px;
+	width: 200px;
 	list-style: none;
 	display: flex;
 	flex-direction: column;
@@ -28,11 +35,11 @@ width: 600px;
 	flex-direction: row;
 }
 .image {
-	width: 100px;
-	height: 100px;
+	width: 200px;
+	height: 150px;
 	padding-bottom: 10px;
 }
 .related {
 	background-color: #747574;
-	width: 200px;
+	width: 200px;	
 }
