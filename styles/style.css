@@ -1,7 +1,13 @@
 body {
 	background-color: #DCDCDD;
-}
+	margin: 0%;
 
+}
+.body {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
 
 .link-box ul{
 	background-color: #29F508;
@@ -11,4 +17,22 @@ body {
 	flex-direction: column;
 	justify-content: flex-start;
 	padding: 0;
+}
+.main {
+background-color: yellow;
+width: 600px;
+
+}
+.text-box {
+	display: flex;
+	flex-direction: row;
+}
+.image {
+	width: 100px;
+	height: 100px;
+	padding-bottom: 10px;
+}
+.related {
+	background-color: #747574;
+	width: 200px;
 }
